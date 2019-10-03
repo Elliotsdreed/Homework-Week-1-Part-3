@@ -3,7 +3,7 @@ namespace Homework_Week_1_Part_3
     public class Movies
     {
         private string title;
-        private string runtime;
+        private int runtime;
 
         public Movies(string title, int runtime)
         {
@@ -12,7 +12,7 @@ namespace Homework_Week_1_Part_3
         }
         public int TotalDuration()
         {
-            return (this.runtime+this/runtime);
+            return (this.runtime+this.runtime);
         }
 
 
