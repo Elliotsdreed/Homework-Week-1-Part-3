@@ -14,28 +14,28 @@ namespace Homework_Week_1_Part_3
           switch(selectedOption)
           {
               case '1':
-              threehours();
+              Threehours();
               break;
               case '2':
-              fourhours();
+              Fourhours();
               break;
               case '3':
-              fivehours();
+              Fivehours();
               break;
           
           }       
         }
-         public void threehours()
+         public static void Threehours()
           {
               Console.Clear();
              Console.WriteLine("Hey guys");
           }
-          public void fourhours()
+          public static void Fourhours()
           {
              Console.Clear();
              Console.WriteLine("Hey guys");
           }
-          public void fivehours()
+          public static void Fivehours()
           {
              Console.Clear();
              Console.WriteLine("Hey guys");
